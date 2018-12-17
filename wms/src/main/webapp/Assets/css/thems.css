@@ -22,9 +22,9 @@ input , textarea , select{font-family:"Microsoft Yahei"; color:#5B5B5B; font-siz
 .banner{ width:100%; overflow:hidden; height:auto; margin:0px auto; position:relative; z-index:1;}
 .banner img{ width:100%; height:auto;}
 /*骞荤伅鐗�*/
-.i_about{ width:600px; margin:0px auto; box-shadow:0px 0px 5px #666; height:357px; margin-top:30px; position:relative; z-index:3; margin-bottom:30px; background:#FFF;}
+.i_about{ width:600px; box-shadow:0px 0px 5px #666; height:357px; margin-top:30px; position:relative; z-index:3; margin-bottom:30px; background:#FFF;display:inline-block;}
 .i_about dt , .i_about dt img{ width:222px; height:327px; float:left; vertical-align:top;}
-.i_about dd{ width:317px; float:left; margin-left:20px; text-align:left;}
+.i_about dd{ width:317px; float:left; margin-left:20px; text-align:left;margin-right:20px;}
 .i_title{ width:100%; height:60px; line-height:60px; text-align:left; border-bottom:1px solid #ddd; position:relative; font-size:24px; color:#000; font-weight:bold;}
 .i_title .more{ display:inline-block; *display:inline; zoom:1; font-size:16px; color:#4C4C4C; height:25px; line-height:25px; border-bottom:2px solid #DCA93C; position:absolute; right:0px; bottom:15px;}
 .i_about dd .ctn{ width:100%; height:220px; overflow:hidden; text-align:left; font-size:14px; color:#555; line-height:180%; padding-top:30px;}
@@ -45,7 +45,7 @@ input , textarea , select{font-family:"Microsoft Yahei"; color:#5B5B5B; font-siz
 .i_brand{ width:1100px; margin:0px auto; padding-bottom:40px;}
 .i_brand .i_brd_m{ width:100%;}
 .i_brd_m li{ width:345px; float:left; margin-right:20px;}
-.i_brd_m li h6{ width:100%; height:60px; line-height:60px; font-size:18px; color:#000000; text-align:left; font-weight:normal;}
+.i_brd_m li h6{ width:100%; height:60px; line-height:60px; font-size:18px; color:#000000; text-align:center; font-weight:normal;}
 .i_brd_m li img{ width:280px; height:280px; vertical-align:top;}
 .foot_bg{ width:100%; background:#D38F00; padding:30px 0;}
 .foot_bg .foot{ width:1100px; margin:0px auto; color:#FFFFFF; text-align:left;}
@@ -114,7 +114,12 @@ input , textarea , select{font-family:"Microsoft Yahei"; color:#5B5B5B; font-siz
 .pro_d .p_dx{ width:100%;}
 .pro_d .p_dx a{ display:inline-block; *display:inline; zoom:1; height:23px; line-height:23px; width:75px; text-align:center; background:#919191; font-size:12px; color:#FFF;  margin:10px 0;margin-right:5px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
 .pro_d .p_dx a.on , .pro_d .p_dx a:hover{ background:#D28E00;}
-
+.ctn .list {height:40px;line-height:40px;display:flex;}
+.ctn .list span {display:inline-block;height:40px;line-height:40px;text-align:center;padding-left:20px;}
+dl {
+	padding: 0;
+	margin: 0;
+}
 
 
 
