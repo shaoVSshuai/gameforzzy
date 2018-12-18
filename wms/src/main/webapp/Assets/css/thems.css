@@ -46,7 +46,7 @@ input , textarea , select{font-family:"Microsoft Yahei"; color:#5B5B5B; font-siz
 .i_brand .i_brd_m{ width:100%;}
 .i_brd_m li{ width:345px; float:left; margin-right:20px;}
 .i_brd_m li h6{ width:100%; height:60px; line-height:60px; font-size:18px; color:#000000; text-align:center; font-weight:normal;}
-.i_brd_m li img{ width:280px; height:280px; vertical-align:top;}
+.i_brd_m li img{ width:200px; height:200px; vertical-align:top;}
 .foot_bg{ width:100%; background:#D38F00; padding:30px 0;}
 .foot_bg .foot{ width:1100px; margin:0px auto; color:#FFFFFF; text-align:left;}
 .foot_bg .foot a{ color:#FFF;}
