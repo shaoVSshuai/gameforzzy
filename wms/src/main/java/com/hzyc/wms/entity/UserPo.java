@@ -12,7 +12,7 @@ public class UserPo {
 	private int id;
 	private String userName;
 	private String pwd;
-	private String sex;
+	
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	@JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
 	private Date birthday;
@@ -41,13 +41,7 @@ public class UserPo {
 		this.pwd = pwd;
 	}
 
-	public String getSex() {
-		return sex;
-	}
 
-	public void setSex(String sex) {
-		this.sex = sex;
-	}
 
 	public Date getBirthday() {
 		return birthday;
@@ -57,10 +51,5 @@ public class UserPo {
 		this.birthday = birthday;
 	}
 
-	@Override
-	public String toString() {
-		return "UserPo [id=" + id + ", userName=" + userName + ", pwd=" + pwd + ", sex=" + sex + ", birthday="
-				+ birthday + "]";
-	}
 
 }

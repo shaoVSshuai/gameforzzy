@@ -1,4 +1,4 @@
-package com.hzyc.wms.service.impl;
+package com.hzyc.wms.service;
 
 import java.util.List;
 
@@ -9,10 +9,9 @@ import org.springframework.stereotype.Service;
 import com.hzyc.wms.dao.UserMapper;
 import com.hzyc.wms.entity.UserPo;
 import com.hzyc.wms.entity.UserVo;
-import com.hzyc.wms.service.IUserService;
 
 @Service
-public class UserServiceImpl implements IUserService {
+public class UserServiceImpl {
 
 	@Resource
 	private UserMapper userMapper;
@@ -25,12 +24,10 @@ public class UserServiceImpl implements IUserService {
 		return userMapper.query(u, orderStr);
 	}
 
-	@Override
 	public UserPo get(int id) {
 		return userMapper.get(id);
 	}
 
-	@Override
 	public int update(UserPo u) {
 		return userMapper.update(u);
 	}
